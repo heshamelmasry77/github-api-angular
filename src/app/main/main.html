@@ -5,5 +5,27 @@
   </div>
 
 
+  <div class="panel panel-default">
+    <div class="panel-heading">Information about the Github user {{main.username}}</div>
+    <div class="panel-body">
+      <ul class="list-group">
+        <li class="list-group-item" ng-repeat="item in main.userData">
+          <!--{{message.msg}} {{message.user.email}}-->
+          <p>Repo Name: {{item.full_name}}</p>
+          <br/>
+          <p>Repo Description: {{item.description }}
+          <div ng-show="!item.description ">Null</div>
+          </p>
+          <br/>
+          <p>Clone URL</p> <a href="{{item.clone_url}}">{{item.clone_url}}</a>
+
+
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
 
 </div>
