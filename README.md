@@ -1,4 +1,6 @@
 # github-api-angular
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/heshamelmasry77/github-api-angular.svg)](https://greenkeeper.io/)
 It is a simple angular application to connect to the REST github api and get the data for a certain user
 
 The project is generated using yeomen and been edited to suitable my needs. 
